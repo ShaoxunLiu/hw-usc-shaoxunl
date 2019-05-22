@@ -48,6 +48,10 @@ int main()
   cout << "Is " << s1 << " > " << s2 << "? " << boolalpha << (s1 > s2) << endl;
   cout << "Is " << s1 << " > " << s3 << "? " << boolalpha << (s1 > s3) << endl;
 
+  s1 = "shawn";
+  cout << s1 << s1.size() << endl;
+  s1 += "";
+  cout << s1 << s1.size() << endl;
   cout << "Enter a string: " << endl;
   cin >> s1;
   cout << "You entered: " << s1 << endl;
