@@ -11,3 +11,11 @@ Homework 1
         b 1): git add hw1q2b.cpp
         b 2): git log
         c: git clone  git@github.com:ShaoxunLiu/hw-usc-shaoxunl.git
+    problem 7:
+        question a: Copy Str Copy Str
+        question b: Str Str
+        question c: 
+        Wrapper::Wrapper(const Str& name, const Str& phone)
+        {
+            Entry e_ = new Entry: name_(name), phone_(phone); 
+        }
